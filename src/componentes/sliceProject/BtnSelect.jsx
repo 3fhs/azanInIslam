@@ -9,7 +9,7 @@ import "./sliceProject.css";
 
 function BtnSelect({ country, handleChange, arrayCountry }) {
   return (
-    <Stack direction="row" justifyContent={"space-around"} style={{ width: "100%", marginBottom: "20px" }}>
+    <Stack direction="row" justifyContent={"space-around"} style={{ width: "100%", marginBottom: "50px" }}>
         <Box sx={{ minWidth: 120 }} mx={{ width: "30%" }}>
           <FormControl style={{ width: "100%" }}>
             <InputLabel id="demo-simple-select-label"> المدينة </InputLabel>
