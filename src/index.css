@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  direction: rtl;
+  font-family: "Amiri", serif;
+}
+/*fonts*/
+.amiri-regular {
+  font-family: "Amiri", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amiri-bold {
+  font-family: "Amiri", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.amiri-regular-italic {
+  font-family: "Amiri", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.amiri-bold-italic {
+  font-family: "Amiri", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+

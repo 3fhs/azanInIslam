@@ -1,0 +1,29 @@
+.css-15k6ek6-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    color: white !important;
+    background-color: #7777 !important;
+    border: 2px solid #7777 !important;
+}
+.css-18pjc51-MuiFormLabel-root-MuiInputLabel-root {
+    color: white !important;
+    font-size: 16px !important;
+}
+.rounded {
+    background-color: #777;
+}
+.rounded::after ,
+.rounded::before {
+    content: "" !important;
+    position: absolute !important;
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #777;
+    z-index: 1000;
+    top: -4px !important;
+    border-radius: 50% !important;
+}
+.rounded::after {
+    right: 0 !important;
+}
+.rounded::before {
+    left: 0 !important;
+}
