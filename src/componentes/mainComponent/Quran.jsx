@@ -125,7 +125,6 @@ function Quran() {
   const [moshafs, setMoshafs] = useState([]);
   const [selectedReciter, setSelectedReciter] = useState(null);
   const [selectedMoshaf, setSelectedMoshaf] = useState(null);
-  const [selectedSurah, setSelectedSurah] = useState('');
   const [audioSrc, setAudioSrc] = useState('');
 
   // Fetch reciters
@@ -148,7 +147,6 @@ function Quran() {
     setSelectedReciter(selected);
     setMoshafs(selected?.moshaf || []);
     setSelectedMoshaf(null);
-    setSelectedSurah('');
     setAudioSrc('');
   };
 
@@ -156,13 +154,11 @@ function Quran() {
     const moshafId = event.target.value;
     const selectedMoshaf = moshafs.find((moshaf) => moshaf.id === parseInt(moshafId));
     setSelectedMoshaf(selectedMoshaf);
-    setSelectedSurah('');
     setAudioSrc('');
   };
 
   const handleSurahChange = (event) => {
     const surahId = event.target.value;
-    setSelectedSurah(surahId);
 
     // Build the URL based on reciter, moshaf, and surah
     const server = selectedReciter?.moshaf.find(moshaf => moshaf.id === parseInt(selectedMoshaf?.id))?.server || '';

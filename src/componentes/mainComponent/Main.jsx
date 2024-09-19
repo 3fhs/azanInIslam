@@ -16,10 +16,8 @@ moment.locale("ar-dz");
 function Main() {
   const [timing, setTiming] = useState({});
   const [country, setCountry] = useState("Cairo");
-  const [today, setToday] = useState("");
   const [nextPrayerName, setNextPrayerName] = useState("");
   const [nextPrayerTime, setNextPrayerTime] = useState("");
-  const [timer, setTimer] = useState();
 
   const arrayCountry = [
     { nameArb: "الوادى الجديد", nameEng: "New Valley" },
@@ -107,12 +105,10 @@ function Main() {
 
       setNextPrayerName(nextPrayerName);
       setNextPrayerTime(formattedTimeRemaining);
-      setTimer(timeRemaining);
     };
 
     setupCountDownTimer();
     const interval = setInterval(setupCountDownTimer, 1000);
-    setToday(moment().format("LLLL"));
 
     return () => clearInterval(interval);
   }, [timing]);

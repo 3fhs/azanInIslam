@@ -13,10 +13,10 @@ function Footer() {
                 <h3> تليفون و واتس : 01023853105 </h3>
             </div>
             <ul className='links' >
-                <li className='link'><i class="bi bi-facebook"></i></li>
-                <li className='link'><i class="bi bi-linkedin"></i></li>
-                <li className='link'><i class="bi bi-github"></i></li>
-                <li className='link'><i class="bi bi-whatsapp"></i></li>
+                <li className='link'><i className="bi bi-facebook"></i></li>
+                <li className='link'><i className="bi bi-linkedin"></i></li>
+                <li className='link'><i className="bi bi-github"></i></li>
+                <li className='link'><i className="bi bi-whatsapp"></i></li>
             </ul>
         </div>
     </div>
