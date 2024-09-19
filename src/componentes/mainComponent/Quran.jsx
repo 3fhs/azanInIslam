@@ -183,7 +183,7 @@ function Quran() {
           <h2>قال تعالى : <em>* وَإِذَا قُرِئَ الْقُرْآنُ فَاسْتَمِعُوا لَهُ وَأَنْصِتُوا لَعَلَّكُمْ تُرْحَمُونَ *</em> صدق الله العظيم</h2>
         </div>
       </div>
-      <div className="search-form" style={{ padding: "30px" }}>
+      <div className="select-form" style={{ padding: "30px" }}>
         <form id="search-form" name="gs" method="submit" role="search" action="#">
           <div className="row">
             <div className="select-icons">

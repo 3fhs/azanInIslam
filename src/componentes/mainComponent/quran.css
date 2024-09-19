@@ -1,8 +1,14 @@
+.select-form {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 #search-form {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 80%;
     background-color: black;
     border-radius: 100px;
     flex-direction: column;
