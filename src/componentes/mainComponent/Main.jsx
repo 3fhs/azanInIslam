@@ -140,7 +140,6 @@ function Main() {
             }}>
 
             <GridTimer country={country} arrayCountry={arrayCountry} nextPrayerName={nextPrayerName} nextPrayerTime={nextPrayerTime} />
-              <p style={{display:"none"}}>{timer}</p>              <p style={{display:"none"}}>{today}</p>
             <BtnSelect arrayCountry={arrayCountry} handleChange={handleChange} country={country} />
 
             <Stack direction="row" justifyContent={"space-around"} flexWrap={"wrap"} style={{

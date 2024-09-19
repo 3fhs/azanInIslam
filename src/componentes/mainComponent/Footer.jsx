@@ -9,8 +9,8 @@ function Footer() {
         </div>
         <div className='contact-me'>
             <div>
-                <h2> Mohamed Abd El Ghany </h2>
-                <h3> TEL : 01023853105 </h3>
+                <h2> أ / محمد عبد الغنى </h2>
+                <h3> تليفون و واتس : 01023853105 </h3>
             </div>
             <ul className='links' >
                 <li className='link'><i class="bi bi-facebook"></i></li>
