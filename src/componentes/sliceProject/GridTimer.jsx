@@ -5,8 +5,8 @@ import "./sliceProject.css";
 
 function GridTimer({ country, arrayCountry , nextPrayerName , nextPrayerTime }) {
   return (
-    <Grid container style={{ display: "flex", justifyContent: "space-around", alignItems: "center", width: "100%", padding: "20px", color:"white", textShadow: "3px 2px BLACK" }}>
-      <Grid item xs={6} style={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", gap: "20px", marginBottom: "20px" }}>
+    <Grid container style={{ display: "flex", justifyContent: "space-around", alignItems: "center", width: "100%", padding: "20px", color:"white", textShadow: "3px 2px BLACK"}}>
+      <Grid item xs={6} style={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", gap: "20px", marginBottom: "20px", minWidth: "250px" }}>
         <div style={{
           display: "flex",
           alignItems: "center",
@@ -19,7 +19,7 @@ function GridTimer({ country, arrayCountry , nextPrayerName , nextPrayerTime }) 
         </div>
         <h1> المدينة : {arrayCountry.find((city) => city.nameEng === country)?.nameArb || "غير محدد"}</h1>
       </Grid>
-      <Grid item xs={6} style={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", gap: "20px", marginBottom: "20px" }}>
+      <Grid item xs={6} style={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", gap: "20px", marginBottom: "20px", minWidth: "250px" }}>
         <h2>متبقى حتى صلاة {nextPrayerName}</h2>
         <h1>{nextPrayerTime}</h1>
       </Grid>
